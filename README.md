@@ -77,16 +77,17 @@ You can use [Grammarly](https://www.grammarly.com/) to quickly edit the typos.
 
 ### Some Rules
 
-***Introducing Terms & Acronyms & Initialisms***
+**Introducing Terms & Acronyms & Initialisms**
+
 When writing technical content, it's very common to use acronyms. If you are not sure the audience is familiar with a term, make sure to explain what it is on the first mention. Then use parenthesis with the shortened version and from then on, only use the shortened version. 
 
 > XML Path Language (XPath) is a query language for selecting nodes from a document. XPath is commonly used for web scraping.
 
-***Use Title Case***
+**Use Title Case**
 
 Use [title case](https://en.wikipedia.org/wiki/Title_case) for headers (## and ###). 
 
-***No spaces between words and punctuation:***
+*No spaces between words and punctuation:*
 
 Bad:
 > Word : another word
@@ -94,7 +95,7 @@ Bad:
 Good:
 > Word: another word
 
-***Examples***
+**Examples**
 
 When you give an example, it's clearer to write "For example" before the example rather than after. 
 
@@ -104,21 +105,22 @@ Bad:
 Suggested:
 > For example, [example].
 
-***Really and very***
+**Really and very**
 Really and very are in most case unnecessary. It simpler and sometimes stronger to avoid using it. 
 
-***Notes***
+**Notes**
 When you include a note to the reader, I recommend capitalizing the first word after “note:” so that you can keep the formatting of all notes consistent, whether they’re only one sentence or more than one sentence.
 
 > Note: Here is my note. And another one.
 
-***Things***
+**Things**
 Avoid using "things" and try to be more specific. 
 
-***Formatting*** 
+**Formatting**
 Ensure formatting is consistent for similar types of things (headers, list, notes...). It helps with clarity. 
 
-***Simple Sentences & Paragraphs***
+**Simple Sentences & Paragraphs**
+
 Use your judgement, but I recommend erring on the side of shorter, simpler sentences, especially in blog posts. This will help keep the reader engaged. The same goes for paragraphs in blog posts. Over time, you will develop a feel for when the text sounds too choppy and longer sentences are needed in those cases.
 Long/Complicated:
 > I went to the grocery store because Iwanted flour to make bread for dinner so that there would be enough food.
