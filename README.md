@@ -111,7 +111,7 @@ Really and very are in most case unnecessary. It simpler and sometimes stronger 
 
 **Notes**
 
-When you include a note to the reader, I recommend capitalizing the first word after “note:” so that you can keep the formatting of all notes consistent, whether they’re only one sentence or more than one sentence.
+When you include a note to the reader, I recommend capitalizing the first word after “note:” so that you can keep the formatting of all notes consistent, whether there is only one sentence or more than one sentence.
 
 > Note: Here is my note. And another one.
 
