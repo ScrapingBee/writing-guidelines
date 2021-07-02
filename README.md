@@ -87,7 +87,7 @@ When writing technical content, it's very common to use acronyms. If you are not
 
 Use [title case](https://en.wikipedia.org/wiki/Title_case) for headers (## and ###). 
 
-*No spaces between words and punctuation:*
+**No spaces between words and punctuation:**
 
 Bad:
 > Word : another word
