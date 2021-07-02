@@ -1,8 +1,8 @@
-# ScrapingBee writing guidelines
+# ScrapingBee Writing Guidelines
 
 This is the writing guidelines for ScrapingBee blog: [https://www.scrapingbee.com/blog/](https://www.scrapingbee.com/blog/)
 
-On ScrapingBee blog, you will find many articles on web scraping, crawling, proxies and more. 
+On ScrapingBee blog, you will find many articles about web scraping, crawling, proxies and more. 
 
 Most of our writers have a software developement background, but we expect them to follow these writing standards.
 
@@ -14,7 +14,7 @@ The guide is splitted into two parts:
 [Conventions and Formatting](#conventions-and-formatting)
 
 
-***This guide is a work in progress, don't hesitate to send any feedback to kevin [at] scrapingbee.com ***
+***This guide is a work in progress, don't hesitate to send any feedback to kevin [at] scrapingbee.com***
 
 ## Content
 
