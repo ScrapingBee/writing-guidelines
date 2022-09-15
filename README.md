@@ -6,12 +6,16 @@ On the ScrapingBee blog, you will find many articles about web scraping, crawlin
 
 Most of our writers have a software developement background, but we expect them to follow these writing standards.
 
-The guide is splitted into two parts: 
+⚠️ Please read carefully before submitting your content to review 🙂!
+
+The guide is splitted into three parts: 
 
 
 [Content](#content)
 
 [Conventions and Formatting](#conventions-and-formatting)
+
+[Deliverable](#deliverable)
 
 
 ***This guide is a work in progress, don't hesitate to send any feedback to kevin [at] scrapingbee.com***
@@ -132,14 +136,71 @@ Long/Complicated:
 Shorter/Clearer:
 > I was worried there wouldn’t be enough food for dinner. So, I decided to pickup flour at the grocery store and make bread.
 
+## Deliverable
 
+### Directory structure
 
+We ask you to follow the current structure when submitting a new article for review.
 
+If the article you write is called "Web Scraping Basics".
 
+Please send us an archived directory called `web-scraping-basics.zip` or `web-scraping-basics.rar`. You can use any well-known archived file format.
 
+Once unarchived, the directory should have this structure:
 
+```
+web-scraping-basics:
+  ⌞ index.md 
+  ⌞ screenshot.png
+  ...
+```
 
+Main content of the article should be in an `index.md` file. All other linked ressources should be at the same level as the `index.md` file. Please do not use `/images`, `/gif`, ... subfolders.
 
+### Images and ressources
 
+If you need to add images to your article, instead of using the classic MarkDown images command `![A screenshot of ScrapingBee](scrapingbee-screenshot.png)`
 
+We ask you to use this shortcode instead:
 
+```
+{{< img src="scrapingbee-screenshot.png" alt="A screenshot of ScrapingBee" >}}
+```
+
+You can use this find and replace regexp to make the swap easier if you've already written your content:
+```
+Replace
+!\[(.*)\]\((.*)\)
+By
+{{< img src="$2" alt="$1" >}}
+```
+
+We also ask you to avoid using generic name for your images and ressources like `image1.png` or `picture.png` and use descriptive name and alt atribute.
+
+### Front Matter
+
+We also ask you to write those FrontMatter directives at the top of the `index.md`
+
+```
+---
+title: Web Scraping Basics
+date: 2022-09-15
+draft: true
+author_id: pierre
+description: 
+---
+
+Please set `title`, `date` and `description` with the relevant values. For the description, write max 2 sentences explaining what the article is about.
+Please leave `author_id` and `draft` as is. The `author_id` value will be updated by us once we've created your profile on our CMS.
+
+# Web Scraping Basics
+This is the content of the article ...
+```
+
+### Author information
+
+If this is the first time we're working together, and if you want to get credited as the author of the article, please add 
+- a small bio ( 2 sentences max)
+- a profile picture of you
+- Github and / or Twitter profile link
+To the email you've send us to show us your article.
