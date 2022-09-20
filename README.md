@@ -164,16 +164,7 @@ If you need to add images to your article, instead of using the classic MarkDown
 We ask you to use this shortcode instead:
 
 ```
-{{< img src="scrapingbee-screenshot.png" alt="A screenshot of ScrapingBee" >}}
-```
-
-⚠️ Do not prepend the file name with "./" otherwise it will break on our end, just use the raw filename with extension.
-
-```
-🚫 {{< img src="./scrapingbee-screenshot.png" alt="A screenshot of ScrapingBee" >}}
-🚫 {{< img src="scrapingbee-screenshot" alt="A screenshot of ScrapingBee" >}}
-
-✅ {{< img src="scrapingbee-screenshot.png" alt="A screenshot of ScrapingBee" >}}
+{{<img src="scrapingbee-screenshot.png" alt="A screenshot of ScrapingBee" />}}
 ```
 
 You can use this find and replace regexp to make the swap easier if you've already written your content:
@@ -181,7 +172,7 @@ You can use this find and replace regexp to make the swap easier if you've alrea
 Replace
 !\[(.*)\]\((.*)\)
 By
-{{< img src="$2" alt="$1" >}}
+{{<img src="$2" alt="$1" />}}
 ```
 
 We also ask you to avoid using generic name for your images and ressources like `image1.png` or `picture.png` and use descriptive name and alt atribute.
