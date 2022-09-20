@@ -167,6 +167,15 @@ We ask you to use this shortcode instead:
 {{< img src="scrapingbee-screenshot.png" alt="A screenshot of ScrapingBee" >}}
 ```
 
+⚠️ Do not prepend the file name with "./" otherwise it will break on our end, just use the raw filename with extension.
+
+```
+🚫 {{< img src="./scrapingbee-screenshot.png" alt="A screenshot of ScrapingBee" >}}
+🚫 {{< img src="scrapingbee-screenshot" alt="A screenshot of ScrapingBee" >}}
+
+✅ {{< img src="scrapingbee-screenshot.png" alt="A screenshot of ScrapingBee" >}}
+```
+
 You can use this find and replace regexp to make the swap easier if you've already written your content:
 ```
 Replace
